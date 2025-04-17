@@ -1,3 +1,3 @@
-# COM4521/COM6521 Assignment Starting Code 2022/2023
+# Cuda Optimization of a Particle Assignment Renderer 
 
-This is the starting code for COM4521/COM6521 assignment. You should read the assignment brief from blackboard for details of this code.
+This project implements a Particle Simulation system, that is designed to process and render large-scale particle systems in real-time, leveraging GPU's parallelism to efficiently map particle contributions onto a 2D pixel grid. The simulation pipeline handles device memory management, kernel launches, and thread-level parallel execution to compute particle interactions and their effects on the screen. By distributing computations across thousands of lightweight CUDA threads, the system achieves substantial performance gains compared to CPU-bound approaches.
