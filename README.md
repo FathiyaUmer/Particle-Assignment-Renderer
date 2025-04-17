@@ -1,4 +1,4 @@
-# Optimized Particle Assignment Renderer using Cuda
+# Optimized Particle Assignment Renderer
 
 This project implements a Particle Simulation system, that is designed to process and render large-scale particle systems in real-time, leveraging GPU's parallelism to efficiently map particle contributions onto a 2D pixel grid. 
 
